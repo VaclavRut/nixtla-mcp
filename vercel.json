@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/mcp",
+      "destination": "/api/mcp"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/admin/cleanup-datasets",
+      "schedule": "0 2 * * *"
+    }
+  ]
+}
